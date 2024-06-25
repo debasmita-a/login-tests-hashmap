@@ -5,8 +5,8 @@
     <classes>
       <class name="tests.LoginPageTest">
         <methods>
-          <include name="doLoginTest" invocation-numbers="0"/>
           <include name="init"/>
+          <include name="doGenericLoginTest"/>
         </methods>
       </class> <!-- tests.LoginPageTest -->
     </classes>
